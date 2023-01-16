@@ -3,19 +3,61 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding:3rem;
+  min-height: 100vh;
+  font-family: 'Ubuntu';
+  
+}
+
+.text_muted{
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+.login {
+  background-color: white;
+  color: black;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 6rem;
   min-height: 100vh;
+  border-radius: 10%;
+  font-size: 1.2rem;
+
+}
+ .login h1 {
+   margin-bottom: 100px;
+ }
+
+ .buttonLogin{
+   align-items:right;
+ }
+
+ .nav{
+  color: #ededed;
+  padding: 0.9rem;
+  font-size: 20px;
+ }
+
+ .navbar{
+   height: 120px;
+   margin-left: -20px;
+ }
+.nav:hover{
+  background-color: #095573;
+  border-radius: 10px;
 }
 
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: space-between;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
-  font-family: var(--font-mono);
+  font-family: 'Ubuntu';
 }
 
 .description a {
@@ -276,3 +318,4 @@
     transform: rotate(0deg);
   }
 }
+
