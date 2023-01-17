@@ -50,9 +50,18 @@
 }
 
 .initial{
+  font-family: 'Ubuntu';
   text-align: center;
   margin-top: 4rem;
   color: #ededed;
+}
+
+.initial h2{
+  margin-bottom: 3rem;
+}
+
+.btHome{
+  margin-top: 40px;
 }
 
 .description {

@@ -85,10 +85,9 @@ body {
 }
 
 body {
-  color: rgb(125 131 144);
   background: linear-gradient(
       to top left,
-      transparent,
+      #d3d3d3,
       rgb(009 085 115)
     )
     rgb(125 131 144);

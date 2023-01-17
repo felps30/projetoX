@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Button from 'react-bootstrap/Button';
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import HeaderComponent from "../components/common/header";
@@ -22,10 +23,10 @@ export default function Home() {
         <h2>Bem vindo ao projeto X</h2>
         <p>Este sistema tem como objetivo agregar diversas melhorias que temos no time de PeS</p>
         <p>Você pode acessar todos nossos módulos pelo menu acima e caso tenha alguma dúvida</p>
-        <p>pode acessar nossa Wiki</p>
-        <a href="http://wiki.eisa.corp.com/display/PPSVIVO/SISAP">
+        <p>pode acessar nossa Wiki abaixo!</p>
+        <Button className={styles.btHome} href="http://wiki.eisa.corp.com/display/PPSVIVO/SISAP">
           Wiki Projeto X
-        </a>
+        </Button>
       </div>
        
       </main>
