@@ -35,7 +35,7 @@
  }
 
  .nav{
-  color: #ededed;
+  color: white;
   padding: 0.9rem;
   font-size: 20px;
  }
@@ -45,7 +45,7 @@
    margin-left: -20px;
  }
 .nav:hover{
-  background-color: #095573;
+  background-color: #0a506b;
   border-radius: 10px;
 }
 
