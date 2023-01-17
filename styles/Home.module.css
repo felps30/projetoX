@@ -54,14 +54,17 @@
   text-align: center;
   margin-top: 4rem;
   color: #ededed;
+  font-size: 18px;
 }
 
-.initial h2{
-  margin-bottom: 3rem;
+.initial h1{
+  margin-bottom: 4rem;
+  /* font-size: 26px; */
 }
 
 .btHome{
   margin-top: 40px;
+  font-size: 17px;
 }
 
 .description {

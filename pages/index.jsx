@@ -20,7 +20,7 @@ export default function Home() {
       <HeaderComponent></HeaderComponent>
       <main className={styles.main}> 
       <div className={styles.initial}>
-        <h2>Bem vindo ao projeto X</h2>
+        <h1>Bem vindo ao projeto X</h1>
         <p>Este sistema tem como objetivo agregar diversas melhorias que temos no time de PeS</p>
         <p>Você pode acessar todos nossos módulos pelo menu acima e caso tenha alguma dúvida</p>
         <p>pode acessar nossa Wiki abaixo!</p>
