@@ -29,12 +29,11 @@ function HeaderComponent() {
         <Nav.Link href="prints">Gerador de Prints</Nav.Link>
       </Nav.Item>
       <Nav.Item className={styles.nav}>
-        <Nav.Link href="artemis">
-          Artemis
-        </Nav.Link>
+        <Nav.Link href="artemis">Artemis</Nav.Link>
       </Nav.Item>
       </Container>
       </Navbar>
+      
     </>
         </>
   );
