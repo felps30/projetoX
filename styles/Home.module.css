@@ -49,6 +49,12 @@
   border-radius: 10px;
 }
 
+.initial{
+  text-align: center;
+  margin-top: 4rem;
+  color: #ededed;
+}
+
 .description {
   display: inherit;
   justify-content: space-between;
