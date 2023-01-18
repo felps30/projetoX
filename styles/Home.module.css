@@ -10,10 +10,6 @@
   
 }
 
-.mb{
-  margin-top: -300px;
-}
-
 .text_muted{
   margin-top: 20px;
   font-size: 0.8rem;
@@ -77,9 +73,13 @@
   display: flex;
   flex-direction: column;
   color: white;
-  margin-top: -50px;
   font-family: 'Ubuntu';
+  margin-top: -400px;
   font-size: 18px;
+}
+
+.button_checa{
+  margin-top: 20px;
 }
 
 .label{

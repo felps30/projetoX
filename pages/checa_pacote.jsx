@@ -56,6 +56,7 @@ export default function Checa(){
       <HeaderComponent></HeaderComponent>
       <main className={styles.main}> 
           <h1>Tela Checa Pacotes</h1>
+         <div className={styles.form_checa}>
          <form className={styles.form_checa}>
             {checkedList.map(({ id, name, checked }) => (
                <label key={id}>
@@ -70,12 +71,13 @@ export default function Checa(){
                {name}
                </label>
             ))}
-          </form>
-    <Form.Group controlId="formFile" className="mb-3">
-        <Form.Label className="mb"></Form.Label>
-        <Form.Control type="file" />
-        <Button  className="mb">Submit</Button>
+                <Form.Group controlId="formFile">
+        <Form.Label></Form.Label>
+        <Form.Control  className={styles.mbr} type="file" />
+        <Button  className={styles.button_checa}>Submit</Button>
       </Form.Group>
+          </form>
+         </div>
 
       </main>
         </>
