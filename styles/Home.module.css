@@ -87,6 +87,26 @@
   color: white;
 }
 
+.dropdown{
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  border-radius: 10%;
+  font-size: 1.2rem;
+}
+
+.dropdown button{
+  width: 500px;
+  margin-top: 50px;
+}
+
+.dropdown a{
+  width: 500px;
+  text-align: center;
+}
+
 .description {
   display: inherit;
   justify-content: space-between;
