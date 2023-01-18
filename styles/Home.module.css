@@ -37,14 +37,14 @@
 
  .nav{
   color: white;
-  padding: 0.9rem;
+  padding: 0.8rem;
   font-size: 20px;
   width: 100%;
-  margin-left: 40px;
+  /* margin-left: 20px; */
  }
 
  .navbar{
-   height: 120px;
+   height: 150px;
  }
 .nav:hover{
   background-color: #0a506b;
@@ -100,11 +100,19 @@
 .dropdown button{
   width: 500px;
   margin-top: 50px;
+  font-size: 23px;
 }
 
 .dropdown a{
   width: 500px;
   text-align: center;
+  font-size: 21px;
+}
+
+.button_estrutura{
+  margin-top: -100px;
+  padding: 13px;
+  font-size: 18px;
 }
 
 .description {

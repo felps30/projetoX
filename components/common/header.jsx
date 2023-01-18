@@ -19,7 +19,13 @@ function HeaderComponent() {
             />{' '}
           </Navbar.Brand>
           <Container>
-          <Nav.Item className={styles.nav}>
+      <Nav.Item className={styles.nav}>
+        <Nav.Link href="/artemis">Artemis</Nav.Link>
+      </Nav.Item>
+      <Nav.Item className={styles.nav}>
+        <Nav.Link href="brok">Brok</Nav.Link>
+      </Nav.Item>
+      <Nav.Item className={styles.nav}>
         <Nav.Link href="/checa_pacote">Checa Pacotes</Nav.Link>
       </Nav.Item>
       <Nav.Item className={styles.nav}>
@@ -29,7 +35,13 @@ function HeaderComponent() {
         <Nav.Link href="prints">Gerador de Prints</Nav.Link>
       </Nav.Item>
       <Nav.Item className={styles.nav}>
-        <Nav.Link href="artemis">Artemis</Nav.Link>
+        <Nav.Link href="painel_defeitos">Painel de Defeitos</Nav.Link>
+      </Nav.Item>
+      <Nav.Item className={styles.nav}>
+        <Nav.Link href="painel_demandas">Painel de Demandas</Nav.Link>
+      </Nav.Item>
+      <Nav.Item className={styles.nav}>
+        <Nav.Link href="/">Central de Download?</Nav.Link>
       </Nav.Item>
       </Container>
       </Navbar>

@@ -2,11 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import HeaderComponent from "../components/common/header";
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import Button from 'react-bootstrap/Button';
 
-export default function Gerador(){
+export default function Artemis(){
     return (
          <>
       <Head>
@@ -19,20 +16,8 @@ export default function Gerador(){
          <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet"/>
       </Head>
       <HeaderComponent></HeaderComponent>
-      <div  className={styles.dropdown}>
-      <h1>Tela Gerador de estrutura</h1>
-         <h2>Selecione o tipo de estrutura que você gostaria de gerar</h2>
-      <DropdownButton id="dropdown-basic-button" title="Estruturas" className={styles.gerador}>
-      <Dropdown.Item variant="dark">Pacotes</Dropdown.Item>
-      <Dropdown.Item variant="dark">Promoções</Dropdown.Item>
-      <Dropdown.Item variant="dark">Eficiencia fiscal</Dropdown.Item>
-    </DropdownButton>
-      </div>
       <main className={styles.main}> 
-
-      <Button className = {styles.button_estrutura}variant="primary" type="submit" href="/">
-        Gerar
-      </Button>
+          <h1>Tela Painel de Defeitos</h1>
       </main>
          </>
     ) 
