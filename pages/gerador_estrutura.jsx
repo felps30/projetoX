@@ -21,10 +21,10 @@ export default function Gerador(){
       <div  className={styles.dropdown}>
       <h1>Tela Gerador de estrutura</h1>
          <h2>Selecione o tipo de estrutura que você gostaria de gerar</h2>
-      <DropdownButton id="dropdown-basic-button" title="Dropdown button" className={styles.gerador}>
-      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      <DropdownButton id="dropdown-basic-button" title="Estruturas" className={styles.gerador}>
+      <Dropdown.Item href="#/action-1">Pacotes</Dropdown.Item>
+      <Dropdown.Item href="#/action-2">Promoções</Dropdown.Item>
+      <Dropdown.Item href="#/action-3">Eficiencia fiscal</Dropdown.Item>
     </DropdownButton>
       </div>
       <main className={styles.main}> 
