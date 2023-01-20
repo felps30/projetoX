@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import HeaderComponent from "../components/common/header";
 
-export default function Artemis(){
+export default function FastJeri(){
     return (
          <>
       <Head>
@@ -17,7 +17,7 @@ export default function Artemis(){
       </Head>
       <HeaderComponent></HeaderComponent>
       <main className={styles.main}> 
-          <h1>Tela Artemis</h1>
+          <h1>Tela Fast Profile Jeri</h1>
       </main>
          </>
     ) 
