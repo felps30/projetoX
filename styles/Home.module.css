@@ -62,6 +62,14 @@
   width: 50%;
 }
 
+.input_defeito{
+  justify-content: space-between;
+  margin-bottom: 280px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
 .initial{
   font-family: 'Ubuntu';
   text-align: center;

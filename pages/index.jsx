@@ -24,7 +24,7 @@ export default function Home() {
         <p>Este sistema tem como objetivo agregar diversas melhorias que temos no time de PeS</p>
         <p>Você pode acessar todos nossos módulos pelo menu acima e caso tenha alguma dúvida</p>
         <p>pode acessar nossa Wiki abaixo!</p>
-        <Button className={styles.btHome} href="http://wiki.eisa.corp.com/display/PPSVIVO/SISAP">
+        <Button className={styles.btHome} href="http://wiki.eisa.corp.com/display/PPSVIVO/SISAP" blank='true'>
           Wiki Projeto X
         </Button>
       </div>
