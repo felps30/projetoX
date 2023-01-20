@@ -57,6 +57,11 @@
   border-radius: 10px;
 }
 
+.input_brok{
+  margin-bottom: 330px;
+  width: 50%;
+}
+
 .initial{
   font-family: 'Ubuntu';
   text-align: center;
